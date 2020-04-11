@@ -15,6 +15,7 @@ mvnw.cmd
 .project
 .mvn/
 target/
+HELP.md
 
 # External tool builders
 .externalToolBuilders/
