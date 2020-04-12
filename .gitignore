@@ -16,6 +16,7 @@ mvnw.cmd
 .mvn/
 target/
 HELP.md
+.sts4-cache/
 
 # External tool builders
 .externalToolBuilders/
