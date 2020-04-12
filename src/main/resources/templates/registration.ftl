@@ -3,10 +3,8 @@
 
 <@c.page>
 Add new user
-
 <#if message??>
   ${message}
 </#if>
-
 <@l.login "/registration" />
 </@c.page>
