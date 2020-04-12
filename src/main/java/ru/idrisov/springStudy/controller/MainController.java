@@ -43,6 +43,7 @@ public class MainController {
     @PostMapping("/main")
     public String add(
             @AuthenticationPrincipal User user,
+            @RequestParam(required = false, defaultValue = "") String filter,
             @RequestParam String text,
             @RequestParam String tag, Map<String, Object> model
     ) {
@@ -53,6 +54,7 @@ public class MainController {
         Iterable<Message> messages = messageRepo.findAll();
 
         model.put("messages", messages);
+        model.put("filter", filter);
 
         return "main";
     }
