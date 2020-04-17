@@ -1,8 +1,6 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-<div>
-	Hello, user
-</div>
-<a href="/main">Main page</a>
+<h5>Привет!!</h5>
+<div>Это мой учебный проект!</div>
 </@c.page>
